@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Potta+One&display=swap');
+body{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    font-family: 'lato',sans-serif;
+}
+
+.offset::before{
+    display: block;
+    content: "";
+    height: 6rem;
+}
+
+
+
+
+
+.navbar{
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.3rem;
+    background: rgba(0,0 0,0.6) !important;
+    padding: 20px 0;
+}
+.navbar-light .navbar-nav .nabvar-link{
+    color: rgb(165, 37, 37);
+    padding-left: 20px;
+
+    
+    margin: 0%;
+
+}
+.navbar-light .navbar-nav .nabvar-link.active,
+.navbar-light .navbar-nav .nabvar-link:hover{
+    color: #bb1e5f;
+}
+ .heading-content{
+    
+    position:absolute;
+    top: 40%;
+     width: 100%;
+    max-width: 100%;
+}
+.heading-content h5{
+    font-size: 3em;
+    font-weight: 300;
+    color: aliceblue;
+    font-family: 'Courier New', Courier, monospace;
+}
+.heading-content p{
+    font-size: 2rem;
+    font-weight: 100;
+
+}
+#about .btn{
+    border: #b8b2b4 solid ;
+}
+#about .btn a{
+    color: rgb(167, 175, 182);
+}
+
+
+.sec1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: #b8b2b4;
+}
+
+
